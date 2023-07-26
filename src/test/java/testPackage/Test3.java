@@ -2,11 +2,11 @@ package testPackage;
 
 import org.testng.annotations.Test;
 
-public class Test1 {
+public class Test3 {
 	@Test (groups="Smoke")
 	public void test1()
 	{
 		System.out.println("print test 1");
-		System.out.println("print test 2");
+		System.out.println("print test 1");
 	}
 }
