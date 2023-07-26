@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-26T09:06:06 IST" name="Suite" finished-at="2023-07-26T09:06:16 IST" duration-ms="9809">
+    <groups>
+      <group name="Regression">
+        <method signature="test4.test4()[pri:0, instance:Appium.Appium_Java.test4@5ffead27]" name="test4" class="Appium.Appium_Java.test4"/>
+        <method signature="test5.test5()[pri:0, instance:Appium.Appium_Java.test5@6356695f]" name="test5" class="Appium.Appium_Java.test5"/>
+        <method signature="test6.test6()[pri:0, instance:Appium.Appium_Java.test6@4f18837a]" name="test6" class="Appium.Appium_Java.test6"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-07-26T09:06:06 IST" name="Test" finished-at="2023-07-26T09:06:16 IST" duration-ms="9809">
+      <class name="Appium.Appium_Java.test6">
+        <test-method signature="test6()[pri:0, instance:Appium.Appium_Java.test6@4f18837a]" started-at="2023-07-26T09:06:16 IST" name="test6" finished-at="2023-07-26T09:06:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- Appium.Appium_Java.test6 -->
+      <class name="Appium.Appium_Java.test5">
+        <test-method signature="test5()[pri:0, instance:Appium.Appium_Java.test5@6356695f]" started-at="2023-07-26T09:06:07 IST" name="test5" finished-at="2023-07-26T09:06:16 IST" duration-ms="9697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- Appium.Appium_Java.test5 -->
+      <class name="Appium.Appium_Java.test4">
+        <test-method signature="test4()[pri:0, instance:Appium.Appium_Java.test4@5ffead27]" started-at="2023-07-26T09:06:07 IST" name="test4" finished-at="2023-07-26T09:06:07 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Appium.Appium_Java.test4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

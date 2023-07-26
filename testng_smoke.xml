@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Smoke"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Appium.Appium_Java.test1"/>
+       <class name="Appium.Appium_Java.test2"/>
+        <class name="Appium.Appium_Java.test3"/>
+         <class name="Appium.Appium_Java.test4"/>
+          <class name="Appium.Appium_Java.test5"/>
+           <class name="Appium.Appium_Java.test6"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
